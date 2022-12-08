@@ -5,6 +5,7 @@ import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
 import avatar2 from './avatar2.jpg'
+// import any = jasmine.any;
 
 /*
 * 1 - описать тип MessageType
