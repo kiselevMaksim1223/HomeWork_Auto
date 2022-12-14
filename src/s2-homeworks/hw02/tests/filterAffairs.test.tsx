@@ -1,7 +1,7 @@
 import React from 'react'
 import { AffairType, filterAffairs } from '../HW2'
 
-let initialState: AffairType[]
+let initialState: Array<AffairType>
 
 beforeEach(() => {
     initialState = [
@@ -14,7 +14,7 @@ beforeEach(() => {
 })
 
 test('filter by all', () => {
-    const newState = filterAffairs(initialState, 'all')
+    const newState = filterAffairs(initialState, 'all');
     expect(newState.length).toBe(5)
 })
 test('filter by high', () => {
