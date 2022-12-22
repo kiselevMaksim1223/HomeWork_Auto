@@ -31,6 +31,8 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
     {_id: 2, name: 'Anime', priority: 'low'},
     {_id: 3, name: 'Games', priority: 'low'},
     {_id: 4, name: 'Work', priority: 'high'},
+    {_id: 5, name: 'Html & CSS', priority: 'middle'},
+    {_id: 6, name: 'JS', priority: 'middle'},
 
 ]
 
@@ -41,27 +43,25 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
 // pure helper functions
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType):Array<AffairType> => { // need to fix any
 
-    let affFilter = affairs
-
+    // let affFilter = affairs
 
     if (filter === "low") {
-        affFilter = affairs.filter(affair => affair.priority === "low")
+        affairs = affairs.filter(affair => affair.priority === "low")
     } else
     if (filter === "middle") {
-        affFilter = affairs.filter(affair => affair.priority === "middle")
+        affairs = affairs.filter(affair => affair.priority === "middle")
     } else
     if (filter === "high") {
-        affFilter = affairs.filter(affair => affair.priority === "high")
+        affairs = affairs.filter(affair => affair.priority === "high")
     }
-    return affFilter
+    return affairs
+
     // console.log(affFilter)
 
 }
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => { // need to fix any
+
     return  affairs.filter(aff => aff._id !== _id)
-
-
-
     // return affDelFilter // need to fix
 }
 
