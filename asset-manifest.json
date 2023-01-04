@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/HomeWork_Auto/static/css/main.c224741a.css",
-    "main.js": "/HomeWork_Auto/static/js/main.9d9ab37f.js",
+    "main.css": "/HomeWork_Auto/static/css/main.e1afe277.css",
+    "main.js": "/HomeWork_Auto/static/js/main.fc7fff13.js",
     "static/js/787.66cb4309.chunk.js": "/HomeWork_Auto/static/js/787.66cb4309.chunk.js",
     "static/media/avatar2.jpg": "/HomeWork_Auto/static/media/avatar2.d720c4e9ae28ee9fed35.jpg",
     "static/media/avatar.png": "/HomeWork_Auto/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/HomeWork_Auto/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
+    "static/media/closeOutline.svg": "/HomeWork_Auto/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
     "static/media/checked.svg": "/HomeWork_Auto/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "index.html": "/HomeWork_Auto/index.html",
-    "main.c224741a.css.map": "/HomeWork_Auto/static/css/main.c224741a.css.map",
-    "main.9d9ab37f.js.map": "/HomeWork_Auto/static/js/main.9d9ab37f.js.map",
+    "static/media/burger.svg": "/HomeWork_Auto/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
+    "main.e1afe277.css.map": "/HomeWork_Auto/static/css/main.e1afe277.css.map",
+    "main.fc7fff13.js.map": "/HomeWork_Auto/static/js/main.fc7fff13.js.map",
     "787.66cb4309.chunk.js.map": "/HomeWork_Auto/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c224741a.css",
-    "static/js/main.9d9ab37f.js"
+    "static/css/main.e1afe277.css",
+    "static/js/main.fc7fff13.js"
   ]
 }
